@@ -15,7 +15,7 @@ Important files:
 
 Author
 ------
-[**Rafael Garibotti**](https://br.linkedin.com/in/rafaelgaribotti)
+[**Rafael Amaral e Bruno Brum**]
 
 
 License
