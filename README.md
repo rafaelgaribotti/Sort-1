@@ -8,7 +8,10 @@ Test results:
 
 Important files:
 
-* [identifier.c](identifier.c)
+* [sort.c](sort.c)
+* [array.c](array.c)
+* [get_opt.c](get_opt.c)
+* [main.c](main.c)
 * [Makefile](Makefile)
 * [.travis.yml](.travis.yml)
 
