@@ -25,7 +25,7 @@ ifeq ($(shell uname -s), Darwin)
 C_COMPILER=clang
 endif
 
-UNITY_ROOT=../Unity/
+UNITY_ROOT=../..
 
 CFLAGS=-std=c99
 CFLAGS += -Wall
@@ -47,9 +47,11 @@ TARGET1 = $(TARGET_BASE1)$(TARGET_EXTENSION)
 SRC_FILES1=\
   $(UNITY_ROOT)/src/unity.c \
   $(UNITY_ROOT)/extras/fixture/src/unity_fixture.c \
-  src/identifier.c \
-  test/TestIdentifier.c \
-  test/test_runners/TestIdentifier_Runner.c \
+  src/sort.c \
+  src/get_opt.c \
+  src/array.c \
+  test/TestSort.c \
+  test/test_runners/TestSort_Runner.c \
   test/test_runners/all_tests.c
 INC_DIRS=-Isrc -I$(UNITY_ROOT)/src -I$(UNITY_ROOT)/extras/fixture/src
 SYMBOLS=
