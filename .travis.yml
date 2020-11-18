@@ -1,5 +1,3 @@
-# Travis example for Identifier created by Rafael Garibotti
-
 sudo: false
 language: c
 compiler:
@@ -13,5 +11,6 @@ addons:
 install:
   - "[ $GCC = gcc ] && export GCC=gcc || true"
 script:
+  - make clean
   - make
 #  - make test
